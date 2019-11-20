@@ -1,0 +1,39 @@
+body {
+  height: 100%;
+  background-color: cornflowerblue;
+}
+
+header{
+  height: 10%;
+  margin: 0;
+  padding: 0;
+  background-color: darkgrey;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  color: white;
+}
+
+main {
+  height: 80%;
+  margin: auto;
+}
+
+footer {
+  height: 10%;
+  margin: auto;
+  background-color: darkslateblue;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.cardsRow1 {
+ offset: 1;
+ margin: 3vh;
+}
